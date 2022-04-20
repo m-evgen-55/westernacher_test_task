@@ -23,8 +23,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class UserController {
 
-    // TODO убрать полдьзователя и пароль от бд
-
     private final UserService userService;
 
     @ApiOperation(value = "Create new user", response = User.class)
